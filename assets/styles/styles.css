@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+	float: none;
+       width: 100%;
+       padding: 0;
+   }
+}
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+#content {
+   float: left;
+   width: 75%;
+}
+aside {
+   float: right;
+   width: 25%;
+padding-left: 20px;
+}
+ 
+h2 {
+   color: #00a2c6
+}
+ 
+h3 {
+   color: #00a2c6
+}
+ nav a:hover {
+   font-weight: bold;
+}
+.profile header {
+   text-align: center;
+}
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+}
+.profile img {
+   width: 150px;
+}
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+.jumbotron {
+   font-size: 15px;
+   padding: 20px;
+   background-color: #90a2c6;
+   text-align: center;
+   color: white;
+}
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 10px;
+
+}
+nav {
+   background-color: #b0c8eb;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+ opacity: .9;
+
+}
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   text-align: center;
+   color: white;
+
+}
+
+
+header {
+   display: inline;
+}
+footer {
+   padding: 1px;
+   color: white;
+   background-color: #b0c8eb;
+   text-align: center;
+   font-weight: bold;
+	position: sticky;
+   bottom: 0;
+ opacity: .6;
+}
+
+
+.flex-container-column {
+   display: flex;
+   flex-direction: column;
+ 
+   /* properti pendukung */
+   max-width: 800px;
+   margin: 0 auto;
+   text-align: right;
+}
+.flex-container-row {
+   display: flex;
+}
+.button {
+   flex-basis: 25%;
+  
+   /* properti pendukung */
+   font-size: 1.5em;
+   text-align: center;
+   padding: 40px;
+   border: 1px solid black;
+   background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+   cursor: pointer;
+}
+.double {
+   flex-basis: 50%;
+}
+.display {
+   color: white;
+   width: 100%;
+   padding: 10px 20px;
+   background-color: #333333;
+   border: 1px solid black;
+   font-size: 2em;
+}
+.operator,
+.negative,
+.equals {
+   background: orange;
+}
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 30px;
+   margin-top: 20px;
+}
+.button:hover {
+   font-weight: bold;
+}
+@media screen and (max-width: 513px) {
+   .button {
+       padding: 10px;
+   }
+}
+.history {
+   width: 80%;
+   margin: 30px auto 0 auto;
+   overflow: scroll;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+   width: 100%;
+   border: 1px solid #ddd;
+}
+th {
+   background-color: orange;
+   color: white;
+}
+ 
+tr:nth-child(even) {
+   background-color: #d2d2d2;
+}
+@media screen and (max-width: 513px) {
+ .button {
+       padding: 10px;
+ }
+ .history {
+       width: 100%;
+ }
+}
